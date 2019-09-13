@@ -1,0 +1,80 @@
+{"faculdade":"Universidade de São Paulo",
+ "endereco":"Cidade Universitária - SP",
+ "institutos":[
+ 	{"nomeInstitutoUSP":"Escola Politécnica",
+	 "enderecoInstitutoUSP": "Av. Prof. Luciano Gualberto, 380",
+	 "entidadeInstitutoUSP":[
+		{"nomeEntidade":"Grêmio",
+		 "eventoEntidade":[
+			{"nomeEvento":"Bate&Volta",
+			 "dataEvento":"27-28/09/2019",
+			 "localEvento": "Rua Adilson Bulo, 156 - Santos",
+			 "horarioEvento": "das 16:00 às 03:00"}]},
+		{"nomeEntidade":"Atlética",
+		 "eventoEntidade":[
+			{"nomeEvento":"Super Tenda - Pré Jogos!",
+			 "dataEvento":"26/10/2019",
+			 "localEvento":"EM BREVE",
+			 "horarioEvento":"das 13:00 às 22:00"},
+			{"nomeEvento":"Poli na Tusca 2019 - Espere pelo Impossível",
+			 "dataEvento":"14-17/11/2019",
+			 "localEvento":"São Carlos",
+			 "horarioEvento":"das 7h às 17:00"}]},
+		{"nomeEntidade":"Centro Acadêmico Engenharia de Produção",
+		 "eventoEntidade":[
+	 		{"nomeEvento":"VIII Semana Acadêmica da Engenharia de Produção (SEGEP)",
+	 		 "dataEvento":"23-27/09/2019",
+	 		 "localEvento":"Engenharia de Produção - Poli USP",
+	 		 "horarioEvento":"A partir das 11:00"}]}]},
+	 {"nomeInstitutoUSP":"Escola de Comunicações e Artes",
+	  "enderecoInstitutoUSP":"Av. Prof. Lúcio Martins Rodrigues, 443",
+	  "entidadeInstitutoUSP":[
+	  	{"nomeEntidade":"ECAtlética",
+	  	 "eventoEntidade":[
+	  	 	{"nomeEvento":"Intereca 2019 - Joga a Bola no meu Pé",
+	  	 	 "dataEvento":"06/10/2019",
+	  	 	 "localEvento":"Planeta Bola Esportes - Avenida Pirajussara, 4411",
+	  	 	 "horarioEvento":"das 10:30 às 22:00"}]},
+		{"nomeEntidade":"Agência de Comunicações ECA Jr.",
+		 "eventoEntidade":[
+		 	{"nomeEvento":"Frenesia Mística",
+		 	 "dataEvento":"20-21/09/2019",
+		 	 "localEvento":"Teatro Mars - Rua João Passalacqua, 80",
+		 	 "horarioEvento":"das 23:00 às 06:00"}]},
+		{"nomeEntidade":"OCAM Orquestra de Câmara da ECA - USP",
+		 "eventoEntidade":[
+		 	{"nomeEvento":"OCAM e Orquestra Mundana Refugi se apresentam no Ibirapuera",
+		 	 "dataEvento":"27/09/2019",
+		 	 "localEvento":"Auditório Ibirapuera - Oscar Niemeyer",
+		 	 "horarioEvento":"das 21:00 às 22:30"}]}]},
+	{"nomeInstitutoUSP":"Faculdade de Economia, Administração, Contabilidade e Atuária",
+	 "enderecoInstitutoUSP": "Av. Professor Luciano Gualberto, 908",
+	 "entidadeInstitutoUSP":[
+		{"nomeEntidade":"CAVC",
+		 "eventoEntidade":[
+			{"nomeEvento":"FEA no ERECO Ouro Preto",
+			"dataEvento":"14–17/11/2019",
+			"localEvento":"Universidade Federal de Ouro Preto - MG",
+			"horarioEvento":"das 16:00 às 19:00"}]},
+		{"nomeEntidade":"AtléticaFEA",
+		 "eventoEntidade":[
+			{"nomeEvento":"SanFEA",
+			 "dataEvento":"20/09/2019",
+			 "localEvento": "Largo São Francisco",
+			 "horarioEvento": "das 23:59 às 06:00"}]}]},
+	{"nomeInstitutoUSP":"Instituto de Matemática e Estatística",
+	 "enderecoInstitutoUSP": "Rua do Matão, 1010",
+	 "entidadeInstitutoUSP":[
+		{"nomeEntidade":"Associação Atlética Acadêmica da Matemática, Estatística e Computação",
+		 "eventoEntidade":[
+			{"nomeEvento":"InterIME 2019",
+			 "dataEvento":"29/09/2019",
+			 "localEvento":"Rua do Matão",
+			 "horarioEvento":"das 8h00 às 16h00"}]},
+		{"nomeEntidade":"USPCodeLab",
+		 "eventoEntidade":[
+			{"nomeEvento":"SheHacks 2019",
+			 "dataEvento":"21/09/2019",
+			 "localEvento":"Facebook São Paulo",
+			 "horarioEvento":"das 9h00 às 20h00"}]}]}
+]}
