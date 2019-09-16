@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F260807232FEDC800011810 /* institutos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F260806232FEDC800011810 /* institutos.swift */; };
+		3F260809232FEFD900011810 /* entidades.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F260808232FEFD900011810 /* entidades.swift */; };
+		3F26080B232FF0C500011810 /* eventos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F26080A232FF0C500011810 /* eventos.swift */; };
+		3F26080D232FF19D00011810 /* descricaoEvento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F26080C232FF19D00011810 /* descricaoEvento.swift */; };
+		3F260810232FF48B00011810 /* institutosTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F26080F232FF48B00011810 /* institutosTableController.swift */; };
+		3F260812232FF4AC00011810 /* entidadesTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F260811232FF4AC00011810 /* entidadesTableController.swift */; };
+		3F260814232FF4D100011810 /* eventosTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F260813232FF4D100011810 /* eventosTableController.swift */; };
+		3F260816232FF59300011810 /* descricaoEventoTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F260815232FF59300011810 /* descricaoEventoTableController.swift */; };
 		3F39BEF8232C04D2006FBFBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F39BEF7232C04D2006FBFBD /* AppDelegate.swift */; };
 		3F39BEFD232C04D2006FBFBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F39BEFB232C04D2006FBFBD /* Main.storyboard */; };
 		3F39BEFF232C04D3006FBFBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F39BEFE232C04D3006FBFBD /* Assets.xcassets */; };
@@ -14,6 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F260806232FEDC800011810 /* institutos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = institutos.swift; sourceTree = "<group>"; };
+		3F260808232FEFD900011810 /* entidades.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = entidades.swift; sourceTree = "<group>"; };
+		3F26080A232FF0C500011810 /* eventos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventos.swift; sourceTree = "<group>"; };
+		3F26080C232FF19D00011810 /* descricaoEvento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = descricaoEvento.swift; sourceTree = "<group>"; };
+		3F26080F232FF48B00011810 /* institutosTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = institutosTableController.swift; sourceTree = "<group>"; };
+		3F260811232FF4AC00011810 /* entidadesTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = entidadesTableController.swift; sourceTree = "<group>"; };
+		3F260813232FF4D100011810 /* eventosTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventosTableController.swift; sourceTree = "<group>"; };
+		3F260815232FF59300011810 /* descricaoEventoTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = descricaoEventoTableController.swift; sourceTree = "<group>"; };
 		3F39BEF4232C04D2006FBFBD /* appMuralUSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appMuralUSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F39BEF7232C04D2006FBFBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F39BEFC232C04D2006FBFBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -33,6 +49,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F260805232FECF100011810 /* Outlets */ = {
+			isa = PBXGroup;
+			children = (
+				3F260806232FEDC800011810 /* institutos.swift */,
+				3F260808232FEFD900011810 /* entidades.swift */,
+				3F26080A232FF0C500011810 /* eventos.swift */,
+				3F26080C232FF19D00011810 /* descricaoEvento.swift */,
+			);
+			path = Outlets;
+			sourceTree = "<group>";
+		};
+		3F26080E232FF31B00011810 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F26080F232FF48B00011810 /* institutosTableController.swift */,
+				3F260811232FF4AC00011810 /* entidadesTableController.swift */,
+				3F260813232FF4D100011810 /* eventosTableController.swift */,
+				3F260815232FF59300011810 /* descricaoEventoTableController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		3F39BEEB232C04D2006FBFBD = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +90,8 @@
 		3F39BEF6232C04D2006FBFBD /* appMuralUSP */ = {
 			isa = PBXGroup;
 			children = (
+				3F26080E232FF31B00011810 /* Controllers */,
+				3F260805232FECF100011810 /* Outlets */,
 				3F39BEF7232C04D2006FBFBD /* AppDelegate.swift */,
 				3F39BEFB232C04D2006FBFBD /* Main.storyboard */,
 				3F39BEFE232C04D3006FBFBD /* Assets.xcassets */,
@@ -132,7 +172,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F260816232FF59300011810 /* descricaoEventoTableController.swift in Sources */,
+				3F26080B232FF0C500011810 /* eventos.swift in Sources */,
+				3F26080D232FF19D00011810 /* descricaoEvento.swift in Sources */,
 				3F39BEF8232C04D2006FBFBD /* AppDelegate.swift in Sources */,
+				3F260809232FEFD900011810 /* entidades.swift in Sources */,
+				3F260812232FF4AC00011810 /* entidadesTableController.swift in Sources */,
+				3F260810232FF48B00011810 /* institutosTableController.swift in Sources */,
+				3F260807232FEDC800011810 /* institutos.swift in Sources */,
+				3F260814232FF4D100011810 /* eventosTableController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
